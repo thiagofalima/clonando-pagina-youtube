@@ -1,0 +1,96 @@
+main {
+    padding: 1.5rem;
+    padding-left: 3rem;
+
+    display: flex;
+    gap: 1.5rem;
+}
+
+main p, span {
+    font-size: small;
+}
+
+main p {
+    color: #515151;
+}
+
+main .video{
+    flex-basis: 65vw;
+}
+
+main .sidebar {
+    flex-basis: 35vw;
+}
+
+main .video * {
+ margin-bottom: .5rem;
+}
+
+main .video img {
+    max-width: 100%;
+}
+
+main .video h2 {
+    font-weight: 600;
+    font-size: 1.25em;
+}
+
+main .video .actions {
+    height: 2rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .video .actions * {
+    margin: 0;
+}
+
+main .video .actions .channel-infos {
+    height: 100%;
+    width: 6rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .video .actions .channel-infos *{
+    margin: 0;
+}
+
+main .video .actions .channel-infos img {
+    max-height: 100%;
+    border-radius: 50%;
+}
+
+.channel-infos-text span {
+    font-weight: 600;
+}
+
+main .video .actions button.subscribe {
+    height: 100%;
+    width: 7.5rem;
+
+    margin: 0;
+    border: none;
+    background-color: #CC0000;
+    
+    text-transform: uppercase;
+    color: white;
+}
+
+main .video .actions .like, .dislike, .share, .download {
+    font-size: small;
+    
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+main .video .views {
+    color: #000000;
+
+    font-weight: 600;
+}
