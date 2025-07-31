@@ -21,3 +21,7 @@ Accurate Layout Recreation: To meticulously clone the visual structure of a YouT
     <li>Navigate to the project directory.</li>
     <li>Open index.html in your web browser.</li>
 </ol>
+
+### Take a look at the Result
+
+<img src="./print.png">
